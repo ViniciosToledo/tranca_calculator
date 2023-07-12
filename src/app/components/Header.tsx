@@ -2,6 +2,14 @@
 
 import Image from 'next/image'
 import { signIn, useSession, signOut } from "next-auth/react"
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+  } from "@/components/ui/dropdown-menu"
 
 const Header = () => {
 
